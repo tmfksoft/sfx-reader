@@ -384,7 +384,7 @@ class SFXReader {
 	}
 
 	// Loads and caches audio data into memory
-	async load() {
+	load() {
 		this.loadPackageEntries();
 		this.loadAudioBankLookups();
 	}
